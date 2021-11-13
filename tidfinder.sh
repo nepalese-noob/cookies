@@ -48,6 +48,7 @@ sleep 1
 clear
 xdg-open https://t.me/MissRose_bot
 echo "type /id and send it"
+read z
 read -p "enter your chat id: " chat
 sleep 1
 echo "your chat id is : $chat" > data.txt
