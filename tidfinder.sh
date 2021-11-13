@@ -19,6 +19,7 @@ clear
 echo "telegram will open after 0 second"
 echo "you have to click start on there"
 sleep 1
+clear
 xdg-open https://t.me/BotFather
 read f
 echo "click on /newbot"
@@ -44,6 +45,7 @@ sleep 1
 clear
 echo "Again telegram will open after 1 second and again click on start"
 sleep 1
+clear
 xdg-open https://t.me/MissRose_bot
 echo "type /id and send it"
 read -p "enter your chat id: " chat
