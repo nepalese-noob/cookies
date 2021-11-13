@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "welcome guys"
 read a
-echo "today we will make a script to make an app"
+echo "today we will find chat id and token of telegram to make an app"
 read b
 echo "leats start the tutorial"
 read c
@@ -15,7 +15,7 @@ echo "click on /newbot"
 read g
 echo "choose name"
 read h
-echo "write new username, (at last of username, put bot, example:usernamebot "
+echo "write new username, (at last of username, put bot, example:usernamebot )"
 read i
 echo "now you made a bot, there you will see bot token"
 read j
