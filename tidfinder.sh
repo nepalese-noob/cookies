@@ -7,9 +7,19 @@ echo "leats start the tutorial"
 read c
 echo "download telegram and sign up"
 read d
-echo "search @botfather"
-read e
-echo "click on start"
+clear
+echo "telegram will open after 3 second"
+echo "you have to click start on there"
+sleep 1
+clear
+echo "telegram will open after 2 second"
+echo "you have to click start on there"
+sleep 1
+clear
+echo "telegram will open after 0 second"
+echo "you have to click start on there"
+sleep 1
+xdg-open https://t.me/BotFather
 read f
 echo "click on /newbot"
 read g
@@ -21,22 +31,24 @@ echo "now you made a bot, there you will see bot token"
 read j
 echo "copy bot token and paste on your note or anywhere"
 echo "bot token looks like 12345678:abcdefghijklmnopqrstuvwxyz"
-read k
+read -p "enter bot token here" token
 echo "you got bot token, you need chat id"
-echo "for get it, send a message to your bot by saying 'hi'"
-read
-#https://api.telegram.org/bot12345678:abcdefghijklmnopqrstuvwxyz/getUpdates
-echo "for that copy your bot token and paste below:"
-read -p "paste your bot token" token
-echo "you will redirected to chrome"
-sleep 1
-xdg-open https://api.telegram.org/bot$token/getUpdates
-echo "find your chat id there"
-echo "andpaste your chat id"
-read chat
+read k
 clear
+echo "Again telegram will open after 3 second and again click on start"
+sleep 1
+clear
+echo "Again telegram will open after 2 second and again click on start"
+sleep 1
+clear
+echo "Again telegram will open after 1 second and again click on start"
+sleep 1
+xdg-open https://t.me/MissRose_bot
+echo "type /id and send it"
+read -p "enter your chat id" chat
 echo "your chat id is : $chat"
 echo "your bot token is: $token"
 sleep 1
-echo "your chat id is : $chat/n your bot token is $token" >> data.txt
+echo "your chat id is : $chat >> data.txt
+echo "your bot token is: $token" >> data.txt
 cat data.txt
