@@ -50,6 +50,6 @@ read -p "enter your chat id" chat
 echo "your chat id is : $chat"
 echo "your bot token is: $token"
 sleep 1
-echo "your chat id is : $chat >> data.txt
-echo "your bot token is: $token" >> data.txt
+echo "your chat id is : $chat" >> data.txt
+echo "your bot token is : $token" >> data.txt
 cat data.txt
