@@ -31,7 +31,7 @@ echo "now you made a bot, there you will see bot token"
 read j
 echo "copy bot token and paste on your note or anywhere"
 echo "bot token looks like 12345678:abcdefghijklmnopqrstuvwxyz"
-read -p "enter bot token here" token
+read -p "enter bot token here: " token
 echo "you got bot token, you need chat id"
 echo "close telegram"
 read k
@@ -46,7 +46,7 @@ echo "Again telegram will open after 1 second and again click on start"
 sleep 1
 xdg-open https://t.me/MissRose_bot
 echo "type /id and send it"
-read -p "enter your chat id" chat
+read -p "enter your chat id: " chat
 echo "your chat id is : $chat"
 echo "your bot token is: $token"
 sleep 1
