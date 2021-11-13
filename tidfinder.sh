@@ -33,6 +33,7 @@ echo "copy bot token and paste on your note or anywhere"
 echo "bot token looks like 12345678:abcdefghijklmnopqrstuvwxyz"
 read -p "enter bot token here" token
 echo "you got bot token, you need chat id"
+echo "close telegram"
 read k
 clear
 echo "Again telegram will open after 3 second and again click on start"
