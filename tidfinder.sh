@@ -49,8 +49,6 @@ clear
 xdg-open https://t.me/MissRose_bot
 echo "type /id and send it"
 read -p "enter your chat id: " chat
-echo "your chat id is : $chat"
-echo "your bot token is: $token"
 sleep 1
 echo "your chat id is : $chat" >> data.txt
 echo "your bot token is : $token" >> data.txt
