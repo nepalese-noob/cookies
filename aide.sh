@@ -1,34 +1,46 @@
 #!bin/bash
 echo "you have to download Aide modded virsion from the link i am giving"
 echo "choose chrome after 5 second"
+sleep 1
 clear
 echo "you have to download Aide modded virsion from the link i am giving"
 echo "choose chrome after 4 second"
+sleep 1
 clear
 echo "you have to download Aide modded virsion from the link i am giving"
 echo "choose chrome after 3 second"
+sleep 1
 clear
 echo "you have to download Aide modded virsion from the link i am giving"
 echo "choose chrome after 2 second"
+sleep 1
 clear
 echo "you have to download Aide modded virsion from the link i am giving"
 echo "choose chrome after 1 second"
+sleep 1
 clear
 echo "lets go..."
+sleep 1
 xdg-open https://drive.google.com/file/d/1U_7oGMCxvjOrqDhoKN0dW4YJ8OblVSCq/view?usp=drivesdk
 clear
-echo "you downloaded aide, good🥰🥰🥰"
-sleep 5
+sleep 2
+echo "you downloaded aide, good🥰🥰🥰hit enter"
+read a
 clear
 echo "now i am going to clone facebook apk git tool...5"
+sleep 1
 clear
 echo "now i am going to clone facebook apk git tool...4"
+sleep 1
 clear
 echo "now i am going to clone facebook apk git tool...3"
+sleep 1
 clear
 echo "now i am going to clone facebook apk git tool...2"
+sleep 1
 clear
 echo "now i am going to clone facebook apk git tool...1"
+sleep 1
 clear
 termux-setup-storage
 cd /sdcard
