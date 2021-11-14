@@ -1,4 +1,5 @@
 #!bin/bash
+clear
 echo "you have to download Aide modded virsion from the link i am giving"
 echo "choose chrome after 5 second"
 sleep 1
